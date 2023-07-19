@@ -10,6 +10,5 @@ url = get(f'https://minhareceita.org/{cnpj}')
 
 # convertendo os dados
 resultado = url.json()
-
 for chave, valor in resultado.items():
     print(f'{chave}: {valor}')
