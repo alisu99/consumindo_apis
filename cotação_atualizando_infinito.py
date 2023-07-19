@@ -16,4 +16,4 @@ while True:
     print('---------- BITCOIN ----------')
     for chave, valor in moedas['BTCBRL'].items():
         print(f'{chave}: {valor}')
-    sleep(300)  # atualiza a cada 5 minutos
+    sleep(60)  # atualiza a cada 1 minutos
